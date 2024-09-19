@@ -32,3 +32,21 @@ Ensure you have Python installed. Run the following commands to install the nece
 ```bash
 pip install torch torchvision opencv-python pillow
 ```
+
+Next, download the `YOLOv5` code from it's official repository:
+
+```bash
+git clone https://github.com/ultralytics/yolov5
+cd yolov5
+pip install -r requirements.txt
+```
+
+### 3. Running the Project
+
+Once the dependencies are installed, you're ready to run the pedestrian detection system. To run it, you can use the following steps:
+
+1. **Capture Video from Webcam:** By default, the script captures video from your webcam.
+
+2. **Detect Pedestrians:** YOLOv5 will process each frame and detect pedestrians.
+
+3. **View Results:** Bounding boxes will appear around detected pedestrians in the real-time video feed.
